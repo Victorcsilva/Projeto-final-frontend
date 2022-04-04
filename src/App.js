@@ -10,7 +10,7 @@ function App() {
   return (
     <AuthProvider>
       <Routes>
-        <Route element={<Layout />}>
+        <Route element={< Home />}>
           <Route path="/" element={<PublicPage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/home" element={<Home />} />
