@@ -41,8 +41,8 @@ function Login() {
              <Image src={symbol}/>
           </Flex>
 
-          <Heading fontSize={'36px'} color={'#00ACC1'} >Comece agora.<p>Conecte-se já.</p></Heading>
-          <Heading fontSize={'24px'} paddingTop={'24px'}> Login </Heading>
+          <Heading fontSize={'36px'} color={'#00ACC1'} fontFamily= {'Open Sans'} >Comece agora.<p>Conecte-se já.</p></Heading>
+          <Heading fontSize={'24px'} paddingTop={'24px'} fontFamily= {'Open Sans'}> Login </Heading>
 
         
             <FormControl onSubmit={handleSubmit} id="email" paddingTop={'24px'}>
@@ -60,15 +60,15 @@ function Login() {
               align={'start'}
               justify={'space-between'}>
             </Stack>
-            <Button bgColor={'#00ACC1'} color={'#FFFFFF'} variant={'solid'}border-radius= {'4px'}>
+            <Button bgColor={'#00ACC1'} color={'#FFFFFF'} variant={'solid'}border-radius= {'4px'} fontFamily= {'Open Sans'}>
               Entrar
             </Button>
-            <Heading fontSize={'16px'} fontStyle={'normal'} > Ainda não possui uma conta? <Link color={'blue.500'} > Cadastrar-se</Link> </Heading> 
+            <Heading fontSize={'16px'} fontStyle={'normal'} fontFamily= {'Open Sans'} > Ainda não possui uma conta? <Link color={'blue.500'} > Cadastrar-se</Link> </Heading> 
           </Stack>
         </Stack>
       </Flex>
       <Flex flex={1} backgroundImage = {dogimage} backgroundRepeat ={'no-repeat'} position={'stact'} >
-        <Image src={patas} width={'68px'} height={'49px'}/>
+        <Image src={patas} width={'78px'} height={'69px'} marginTop={'326px'} marginLeft={'169px'}/>
         <Text fontSize={'51.5px'} color={'#FFFFFF'} fontFamily= {'Roboto'} marginTop = {'326px'}>PETWITTER</Text>
       </Flex>
     </Stack>
