@@ -16,7 +16,6 @@ import { useAuth } from "../context/auth-context";
 import { useForm } from "react-hook-form";
 import symbol from '../images/symbol.png'
 import patas from '../images/pets.png'
-import {Link} from 'react-router-dom'
 
 function Login() {
   const navigate = useNavigate();
@@ -56,21 +55,21 @@ function Login() {
           <Stack spacing={6}>
             <Stack
               direction={{ base: 'column', sm: 'row' }}
-              align={'start'}
-              justify={'space-between'}>
-            </Stack>
-            <Button bgColor={'#00ACC1'} color={'#FFFFFF'} variant={'solid'}border-radius= {'4px'} fontFamily= {'Open Sans'}>
-              Entrar
-            </Button>
-            <Heading fontSize={'16px'} fontStyle={'normal'} fontFamily= {'Open Sans'} > Ainda não possui uma conta? <Link to='/Cadastro'  color={'blue.500'} > Cadastrar-se</Link> </Heading> 
-          </Stack>
-        </Stack>
-      </Flex>
-      <Flex flex={1} backgroundImage = {dogimage} backgroundRepeat ={'no-repeat'} position={'stact'} w={'100%'} align={'center'} justify='center'>
-         <Image src={patas} />
-            <Text fontSize={'51.5px'} color={'#FFFFFF'} fontFamily= {'Roboto'}  fontWeight={'700'} >PETWITTER</Text>
-              </Flex>
+               align={'start'}
+                justify={'space-between'}>
                 </Stack>
+          <Button bgColor={'#00ACC1'} color={'#FFFFFF'} variant={'solid'}border-radius= {'4px'} fontFamily= {'Open Sans'}>
+              Entrar
+              </Button>
+               <Heading fontSize={'16px'} fontStyle={'normal'} fontFamily= {'Open Sans'} > Ainda não possui uma conta? <Link href='/Cadastro'  color={'blue.500'} > Cadastrar-se</Link> </Heading> 
+                </Stack>
+                 </Stack>
+          </Flex>
+          <Flex flex={1} backgroundImage = {dogimage} backgroundRepeat ={'no-repeat'} position={'stact'} w={'100%'} align={'center'} justify='center'>
+             <Image src={patas} />
+               <Text fontSize={'51.5px'} color={'#FFFFFF'} fontFamily= {'Roboto'}  fontWeight={'700'} >PETWITTER</Text>
+                 </Flex>
+          </Stack>
   );
 }
 export default Login;

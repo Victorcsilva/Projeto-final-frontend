@@ -1,0 +1,13 @@
+
+.container { 
+background: var(--primary);
+}
+
+.wrappe {
+height:100%;
+max-width:1280px;
+margin:0 ;
+
+display: flex;
+justify-content:center;
+}

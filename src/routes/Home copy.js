@@ -69,16 +69,16 @@ function Login() {
 
 
           <Stack spacing={6}>
-            <Stack
-              direction={{ base: 'column', sm: 'row' }}
-              align={'start'}
-              justify={'space-between'}>
-            </Stack>
-            <Button bgColor={'#00ACC1'} color={'#FFFFFF'} variant={'solid'}border-radius= {'4px'} fontFamily= {'Open Sans'}>
-              Entrar
-            </Button>
-            <Heading fontSize={'16px'} fontStyle={'normal'} fontFamily= {'Open Sans'} > Ainda não possui uma conta? <Link href='/Cadastro'  color={'blue.500'} > Cadastrar-se</Link> </Heading> 
-          </Stack>
+              <Stack
+                direction={{ base: 'column', sm: 'row' }}
+                  align={'start'}
+                   justify={'space-between'}>
+              </Stack>
+              <Button bgColor={'#00ACC1'} color={'#FFFFFF'} variant={'solid'}border-radius= {'4px'} fontFamily= {'Open Sans'}>
+                 Entrar
+              </Button>
+              <Heading fontSize={'16px'} fontStyle={'normal'} fontFamily= {'Open Sans'} > Ainda não possui uma conta? <Link href='/Cadastro'  color={'blue.500'} > Cadastrar-se</Link> </Heading> 
+             </Stack>
         </Stack>
       </Flex>
       <Flex flex={1} backgroundImage = {dogimage} backgroundRepeat ={'no-repeat'} position={'stact'} w={'100%'} align={'center'} justify='center'>

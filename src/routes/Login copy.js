@@ -42,8 +42,8 @@ function Login() {
           Senha: <input name="password" type="password" paddingTop={'24px'}/>
         </label>{" "}
         <button bgColor={'#00ACC1'} color={'#FFFFFF'} variant={'solid'}border-radius= {'4px'} fontFamily= {'Open Sans'}>
-              Entrar
-            </button>
+          Entrar
+         </button>
       </form>
     </div>
 

@@ -1,6 +1,6 @@
-import client from "../providers/client";
+import client from '../providers/client'
 
-export const login = (data) => client.post("/login", data);
+export const login = (data) => client.post('https://otterwise-fake-api.herokuapp.com/login/authenticate', data)
 
 export const getFromStorage = (key) => JSON.parse(localStorage.getItem(key));
 

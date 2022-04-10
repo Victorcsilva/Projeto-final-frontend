@@ -1,0 +1,20 @@
+  * {
+    margin: 0;
+    padding: 0;
+    font-family:'Open sans',sans-serif;
+
+  }
+ 
+  :root {
+    --primary: #000;
+    --secondary: #15181C;
+    --search: #202327;
+    --white: #D9D9D9;
+    --gray: #7A7A7A;
+    --outline: #2F3336;
+    --greent: #00C06B;
+    --like: #E8265E;
+    --bluetwitter: #33A1F2;
+    --dark-hover: #011017;
+    --light-hover: #2C8ED6;
+  }

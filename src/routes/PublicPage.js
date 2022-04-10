@@ -1,6 +1,7 @@
 import * as React from 'react';
+import Home from './Home';
 
 export default function SplitScreen() {
-  return ( <>OLÁ</>
-  );
+  return ( <Home/>
+ );
 }
