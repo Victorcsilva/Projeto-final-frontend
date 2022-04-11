@@ -12,7 +12,7 @@ import NavHoverBox from './NavHoverBox'
 
 export default function NavItem({ icon, title, description, active, navSize }) {
     return (
-        <Flex
+        <Flex 
             mt={30}
             flexDir="column"
             w="100%"
